@@ -1,0 +1,1 @@
+# React SSR vs. CSR
