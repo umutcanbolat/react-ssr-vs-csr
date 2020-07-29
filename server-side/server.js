@@ -25,7 +25,7 @@ app.use("/", handleRender);
 // create HTML layout
 function renderFullPage(html) {
   return (
-    '<!DOCTYPE html><html><head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /><script src="js/bundle.js" defer></script><title>Server Side</title></head><body><div id="app" /><div>' +
+    '<!DOCTYPE html><html><head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"><script src="js/bundle.js" defer></script><title>Server Side</title></head><body><div id="app" /><div>' +
     html +
     "</div></body></html>"
   );

@@ -1,0 +1,14 @@
+img {
+  max-height: 100%;
+  width: auto;
+}
+
+.image-container {
+  height: 400px;
+  min-height: 120px;
+  max-height: auto;
+}
+
+h1 {
+  margin: 4rem auto;
+}
